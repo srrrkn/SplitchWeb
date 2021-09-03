@@ -1,0 +1,21 @@
+.img-fitter{
+    position: relative; 
+    display: block;
+    width:50%;
+    background-color: #29d632;
+}
+
+.img-fitter::before{
+    content: '';
+    display: block;
+    padding-top:100%;
+}
+
+.split-image{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: 0px 0px;
+}
